@@ -8,7 +8,7 @@ words_to_repeat = {}
 
 # Подключение к базе данных
 conn = psycopg2.connect(
-    dbname='english_bot',
+    dbname='english',
     user='english_bot_user',
     password='english_bot_password',
     host='localhost'
